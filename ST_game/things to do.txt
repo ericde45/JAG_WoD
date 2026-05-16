@@ -1,0 +1,32 @@
+OK - replay madmax en main avec flag timer 1
+- par la suite, systeme de buffer des valeurs YM, idem amiga, en vbl
+OK - gerer reset enveloppe / ecraser la valeur avec une valeur > à 15 : si bit 7=1 => pas de reset, pas de changement
+OK - gerer arret/relance digidrums dans le player madmax ( mise a zero de la virgule du digidrums )
+- ajouter 2 voies SFX
+
+
+
+YM_DSP_pointeur_enveloppe_en_cours
+YM_DSP_increment_enveloppe
+YM_DSP_offset_enveloppe
+
+YM_DSP_increment_Noise
+YM_DSP_position_offset_Noise
+YM_DSP_current_Noise_mask
+YM_DSP_current_Noise
+
+YM_DSP_Mixer_NA
+YM_DSP_increment_canal_A
+YM_DSP_position_offset_A
+YM_DSP_Mixer_TA
+YM_DSP_pointeur_sur_source_du_volume_A
+
+idem B
+
+idem C
+
++ digidrums 8 bits 1 voie
+
++ 2 voies SFX
+
+
